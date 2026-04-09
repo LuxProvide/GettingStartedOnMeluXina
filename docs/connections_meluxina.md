@@ -2,15 +2,32 @@
 
 # Hands-on: Configuring your access to MeluXina
 
-We want to configure two different ways to access MeluXina:
 
-- The **command line** access using the Secure Shell (SSH).
-- The **web-portal** access with username and password.
+
+This part will help you to configure your access to MeluXina.
+It goes to three main steps:
+
+1. [Setup your **service desk** account](#setup-your-service-desk-account)
+2. [**Command line** access using SSH](#command-line-access-using-ssh-key)
+3. [**Web-portal** access](#web-portal-access)
+
+![Command Line](images/command_line_interface.png){ width="560"}
+![Web-portal](images/webportal_interface.png){ width="560"}
+
+##  Setup your service desk account
 
 ## Command line access using SSH key
 
-- SSH (Secure Shell) is the de-facto standard to access remote Linux machines and supercomputing platforms. 
-- It is fast, lightweight, and secure, offering a command-line interface (CLI) with the Shell. The security relies on an SSH key pair (public/private keys).
+The Command Line Interface (CLI) with Secure Shell (SSH)) is the de-facto standard to access remote Linux machines and supercomputing platforms. 
+It is fast, lightweight, and secure. The security relies on an SSH key pair (public/private keys).
+
+![SSH Access to a Supercomputer](images/ssh_access.png)
+
+!!! info "SSH setup is not stricly required, but recommended"
+
+    The command line interface is often required to use MeluXina.
+    
+    If the SSH access is too complicated to setup, the command line interface is also available in the [web-portal](#web-portal-access).
 
 
 ### Setup of SSH Access
@@ -98,7 +115,7 @@ You made it! You're connected to the MeluXina supercomputer.
 
 
 
-## Web-portal access using username and password
+## Web-portal access
 
 The Open OnDemand web portal provides a graphical interface to access MeluXina services.
 
