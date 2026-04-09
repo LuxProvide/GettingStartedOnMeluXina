@@ -14,7 +14,7 @@ It has been developed by the **Supercomputing Application Services** group at [*
 - Gain a foundational understanding of **High-Performance Computing** (HPC).
 - Learn how to securely access and navigate the **MeluXina supercomputer**:
     - Connecting using the SSH or the Web-portal;
-    - Uploading and downloadding files;
+    - Uploading and downloading files;
     - Running computing jobs.
 - Explore **practical workflows**, including urban wind simulation and AI-driven analysis using PyTorch.
 
@@ -39,28 +39,29 @@ Today's training is composed of:
 
 ## 👨‍🏫 Part 1 - Presentation: Short introduction to HPC and MeluXina
 
-The presentation covers:
-
-- High Performance Computing
-    - What is HPC?
-- HPC Platforms
-    - Hardware view
-    - Software view
-- Using an HPC platform
-    - User Interfaces
-    - Interactive vs batch job
-    - Job scheduler
-    - Software environment
-- MeluXina in practice
-    - User and project accounts
-    - Data storage
-    - Authentication
-    - Terminal access
-    - Web-portal access
-
-Click on the image below to download the slides of the presentation:
+👉 Click on the image to download the slides of the presentation.
 
 [![Slides](images/slides.png){ width="640" }](files/Getting_Started_with_MeluXina.pdf)
+
+!!! abstract "Presentation outline"
+
+    - High Performance Computing
+        - What is HPC?
+    - HPC Platforms
+        - Hardware view
+        - Software view
+    - Using an HPC platform
+        - User Interfaces
+        - Interactive vs batch job
+        - Job scheduler
+        - Software environment
+    - MeluXina in practice
+        - User and project accounts
+        - Data storage
+        - Authentication
+        - Terminal access
+        - Web-portal access
+
 
 -----------------------------------
 
