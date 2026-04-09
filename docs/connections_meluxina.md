@@ -26,7 +26,7 @@ This email (example on the right) includes two important information to setup yo
 
 Then, you have to follow the **link in the email**, use your temporary credential to login and setup a new strong password. Make sure to remember your username and this password as you will need them later on.
 
-!!! info "Online Documentation"
+??? abstract "Online Documentation"
 
     [Get your service desk password](https://docs.lxp.lu/first-steps/connecting/#get-your-service-desk-password)
 
@@ -39,7 +39,7 @@ Then, you have to follow the **link in the email**, use your temporary credentia
 
     The command line interface is often required to use MeluXina.
     
-    If the SSH access is too complicated to setup, the command line interface is also available in the [web-portal](#web-portal-access).
+    If the SSH access is too complicated to setup, you can jump directly to the [web-portal access](#web-portal-access) and use the command line from there.
 
 The Command Line Interface (CLI) with Secure Shell (SSH) is the de-facto standard to access remote Linux machines and supercomputing platforms. 
 It is fast, lightweight, and secure. The security relies on an SSH key pair (public/private keys) which is tied to a specific machine (e.g., your laptop). In other words, the SSH key setup allows to identify and and grant access for to a specific machi practice, it means the 
@@ -51,7 +51,7 @@ Configuring your SSH access to MeluXina requires the following steps that have t
 1. [Generating an SSH key](https://docs.lxp.lu/first-steps/connecting/#generating-an-ssh-key-pair)
 2. [Uploading your public SSH key](https://docs.lxp.lu/first-steps/connecting/#upload-your-public-ssh-key)
 
-!!! tips
+!!! tip
 
     This setup is slightly different depending on if you work on Linux/MacOS or Windows.
     In the documentation page, make sure to check the instructions specific to your system by clicking on the right tab. 
@@ -60,7 +60,7 @@ Configuring your SSH access to MeluXina requires the following steps that have t
     
     ![OS specific instructions](images/os_specific_instructions.png)   
 
-??? info "Guidelines to Handle Your SSH Keys"
+??? warning "Guidelines to Handle Your SSH Keys"
 
     Handling SSH Keys can be confusing and intimidating at first.
     It is about security and it should be taken seriously when all the devices are connected to the Internet. Here are a few guidelines:
@@ -71,6 +71,11 @@ Configuring your SSH access to MeluXina requires the following steps that have t
     - Protect your SSH key with a passphrase. Without that, if your laptop gets stolen, your accesses to remote machines get compromised too! Instead, learn to use SSH Agent so you need to type your passphrase only once after booting your laptop.
     - You're not allowed to share your HPC access with another person. If you need to do it for some reason (e.g. debugging issues specific to your account), you should NOT share your private SSH key. Instead, you should authorize the SSH public of the other person to access your account (via the service desk or your `~/.ssh/authorized_keys`)
 
+??? abstract "Online Documentation"
+
+    [Generating an SSH key](https://docs.lxp.lu/first-steps/connecting/#generating-an-ssh-key-pair)
+    [Uploading your public SSH key](https://docs.lxp.lu/first-steps/connecting/#upload-your-public-ssh-key)
+
 ### Connection to the MeluXina login node
 
 When using a supercomputer, you will usually first connect to a **login** or **access node**.
@@ -79,7 +84,7 @@ It is intended to be used by the user to prepare computing jobs and scripts and 
 
 ![SSH Access to a Supercomputer](images/ssh_access.png)
 
-??? info
+??? question "About the access nodes"
 
     Because the access node is shared by all the users of the platform, it should not be used to compile and install your software and it should definitely not be used to run any memory or computing-intensive task. Usually, there are some guardrails implemented on the access node to prevent unwanted usage. For example, there is no compiler installed or the `module` command is not available.
 
@@ -87,7 +92,7 @@ You're now ready to connect to MeluXina. Follow the detailed instructions of the
 
 - [Connect to MeluXina](https://docs.lxp.lu/first-steps/connecting/#connect-to-meluxina)
 
-!!! tips
+!!! tip
 
     Once again, this step is slightly different depending on if you work on Linux/MacOS or Windows.
     In the documentation page, make sure to check the instructions specific to your system by clicking on the right tab. 
@@ -103,7 +108,7 @@ If you have configured your SSH config file with an alias (recommended), you can
 ssh meluxina
 ```
 
-!!! info
+??? question "What does this mean?"
 
     In the example above, `meluxina` does not name a specific machine.
     Instead, it refers to an entry in the SSH config file that defines a set of configuration items, like the **hostname** (actual address on the internet),
@@ -126,6 +131,10 @@ The shell prompt (last line on the terminal) should indicate that you're correct
     3. Call for help! 👨‍🏫 The LuxProvide team will help you getting this right. 🙂
 
 You made it! You're connected to the MeluXina supercomputer.
+
+??? abstract "Online documentation"
+
+    [Connect to MeluXina](https://docs.lxp.lu/first-steps/connecting/#connect-to-meluxina)
 
 ---
 
