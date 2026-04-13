@@ -37,6 +37,7 @@ theme:
         - toc.integrate
         - content.code.copy
         - content.code.select
+        - content.code.annotate
         #- navigation.tabs
 
 plugins:

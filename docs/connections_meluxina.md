@@ -14,7 +14,7 @@ It consists of three main steps:
 
 ---
 
-## Setup your service desk account
+## ▶️ Setup your service desk account
 
 ![Onboarding email](images/onboarding_email.png){ width="520" align="right" }
 
@@ -33,7 +33,7 @@ Then, you have to follow the **link in the email**, use your temporary credentia
 
 ---
 
-## Command line access using SSH key
+## ▶️ Command line access using SSH
 
 !!! info "SSH setup is not strictly required, but recommended"
 
@@ -158,7 +158,7 @@ That's it for now. The submission of computation jobs on MeluXina will be shown 
 
 ---
 
-## Web-portal access
+## ▶️ Web-portal access
 
 The Open OnDemand web portal provides a graphical interface to access MeluXina services.
 It serves as a web-based gateway to the high-performance computing (HPC) environment, allowing users to seamlessly access the command line, manage files, monitor jobs, and run graphical applications directly from a browser without needing to configure SSH locally.
